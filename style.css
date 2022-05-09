@@ -1,0 +1,130 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing:border-box;
+}
+body{
+    
+    display: flex;
+    height: 80vh;
+    justify-content:center;
+}
+.container{
+   max-width:900px;
+   width: 100%;
+   border:2px solid;
+   padding: 2rem 0 ;
+   position: relative;
+   margin-top:2rem;
+   
+   
+}
+.container-form{
+    width: 70%;
+    height: 100%;
+    position: absolute;
+    right:0%;
+    top: 0%;
+
+   
+}
+.container form .user-details{
+    Display:flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    padding:1rem;
+}
+form .user-details .div-input{
+    width: calc(100%/2 - 10px) ;
+    margin: 1px 0 12px 0;
+}
+.user-details .div-input input{
+    height: 30px;
+    width: 100%;
+    border:1px solid rgb(6, 214, 145);
+}
+span{
+    font-size: 13px;
+}
+.user1{
+    position: relative;
+    left:15px;
+    display: inline;
+}
+.checkmark,.radio{
+    padding:80px 9px 12px 0;
+    position:relative;
+    top:30px;
+    right:6rem;
+    width: 20px;
+    height:20px;
+    font-size:17px;
+}
+.radio{
+    background-color: rgb(6, 214, 145); 
+}
+.donate{
+    border:2px solid rgb(234, 240, 236);
+    width: 38rem;
+}
+ 
+.container-img{
+    width:30%;
+    display:flex ;
+    position:absolute; 
+    top:0px;  
+}
+img{
+    width:270px;
+    height:464px;
+}
+.submit-div{
+   position: relative;
+   left:70%;
+   padding:2rem ;
+   margin: 0rem;
+}
+button{
+    width: 60px;
+    height: 40px;
+    border:none; 
+    border-radius: 10%;
+     
+}
+.rer1{
+    background-color: rgb(6, 214, 145);
+}
+.rer2{
+    border:1px solid rgb(6, 214, 145); ;
+}
+
+@media (max-width:680px) {
+    .container{
+        width: 100%;}
+    .container-form{
+        width:70%;
+    }
+    .container-img{
+        width:30%;
+    }
+    
+    
+}
+
+/*
+@media (max-width:200px) {
+    .container{border:auto}
+    .container-form
+    .container-img
+
+    
+}
+
+
+@media (max-width:970px) {
+    .container{border:auto}
+    .container-form
+    .container-img
+    
+    
+}*/
